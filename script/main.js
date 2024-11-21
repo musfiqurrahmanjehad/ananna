@@ -1,6 +1,6 @@
 window.onload = function() {
   const today = new Date();
-  const targetDate = new Date(today.getFullYear(), 10, 22);
+  const targetDate = new Date(today.getFullYear(), 10, 24);
 
   if (today < targetDate) {
     Swal.fire({
