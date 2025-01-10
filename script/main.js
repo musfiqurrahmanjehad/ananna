@@ -1,18 +1,5 @@
 window.onload = function() {
-  const today = new Date();
-  const targetDate = new Date(today.getFullYear(), 10, 24);
-
-  if (today < targetDate) {
-    Swal.fire({
-      title: 'It\'s a surprise!',
-      html: `<p>Wait for it cutie. No need to rush to the finishline.</p>`,
-      icon: 'error',
-      showConfirmButton: false,
-      allowOutsideClick: false,
-    });
-  } else {
     animationTimeline();
-  }
 };
 
 // animation timeline
